@@ -15,12 +15,10 @@
 - Understanding how to use the API correctly
   - Headers
   - User-Agent
-
 - Endpoints
 
 # **Understanding how to use the API correctly**
 ### Headers
-> [!NOTE]  
 > Headers depend on the endpoint but even if it works with no headers or only the Authorization header you still need to have all the headers in for the request, example of universal gecko based browser (zen) headers
 ```python
 {
@@ -48,18 +46,16 @@
 ```
 
 ### User-Agent (UA for short)
-> [!NOTE]  
 > User-Agent is a identifier for the browser/device/etc the user is using, here is a example of a user agent for a gecko based browser (zen)
-```python
+```
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
 ```
 
-### X-Super-Properties (Xsup for short)
-> [!NOTE]  
+### X-Super-Properties (Xsup for short) 
 > Xsup is similar to the useragent but it has more info and is more specific about the device, explenation and decode below (taken from a gecko based browser (zen))
 
 Encoded
-```python
+```text
 eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiRmlyZWZveCIsImRldmljZSI6IiIsInN5c3RlbV9sb2NhbGUiOiJlbi1VUyIsImJyb3dzZXJfdXNlcl9hZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQ7IHJ2OjEzNC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzEzNC4wIiwiYnJvd3Nlcl92ZXJzaW9uIjoiMTM0LjAiLCJvc192ZXJzaW9uIjoiMTAiLCJyZWZlcnJlciI6Imh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vIiwicmVmZXJyaW5nX2RvbWFpbiI6Ind3dy5nb29nbGUuY29tIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsInJlZmVycmVyX2N1cnJlbnQiOiIiLCJyZWZlcnJpbmdfZG9tYWluX2N1cnJlbnQiOiIiLCJyZWxlYXNlX2NoYW5uZWwiOiJzdGFibGUiLCJjbGllbnRfYnVpbGRfbnVtYmVyIjozNjM1NTcsImNsaWVudF9ldmVudF9zb3VyY2UiOm51bGwsImhhc19jbGllbnRfbW9kcyI6ZmFsc2V9
 ```
 Decoded (Put the xsup into this site https://www.base64decode.org/ to decode yours)

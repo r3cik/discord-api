@@ -17,9 +17,9 @@
   - User-Agent
 - Endpoints
 
-# **Understanding how to use the API correctly**
-### Headers
-> Headers depend on the endpoint but even if it works with no headers or only the Authorization header you still need to have all the headers in for the request, example of universal gecko based browser (zen) headers
+# **Headers**
+### Header base
+> The header base depends on the endpoint (as diffrent ones may require additional header values) but even if it works with no headers or only the Authorization header you still need to have all the headers in for the request, example of universal gecko based browser (zen) headers
 ```python
 {
     'Accept': '*/*',

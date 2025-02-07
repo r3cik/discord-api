@@ -18,6 +18,9 @@
 - Endpoints
 
 # **Headers**
+> [!NOTE]  
+> All headers shown here are based from a desktop chromium browser (google chrome) headers on geckobased browsers (firefox, etc) will be diffrent
+
 ### Header base
 > The header base depends on the endpoint (as diffrent ones may require additional header values) but even if it works with no headers or only the Authorization header you still need to have all the headers in for the request, example of headers for chrome133
 ```python
@@ -46,7 +49,18 @@
 ```
 
 ### User-Agent (UA for short)
-> User-Agent is a identifier for the browser/device/etc the user is using, here is a example of a user agent for chrome133
+> User-Agent is a identifier for the browser/device/etc the user is using
+> 
+> **Explenation for diffrent values**  
+> - **Mozilla/5.0** `Pretending to be Mozilla for compatibilty and its version`
+> - **Windows NT 10.0** `The OS version`
+> - **Win64; x64** `OS architecture`
+> - **AppleWebKit/537.36** `Rendering engine and its version`
+> - **(KHTML, like Gecko)** `Rendering engines`
+> - **Chrome/133.0.0.0** `Browser name and its version`
+> - **Safari/537.36** `Pretending to be safari for compatibilty and its version`
+> 
+> Example of chrome133 user agent
 ```
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 ```

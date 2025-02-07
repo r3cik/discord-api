@@ -27,22 +27,22 @@
 {
     'Accept': '*/*',
     'Accept-Encoding': 'gzip, deflate, br, zstd',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Connection': 'keep-alive',
-    'Content-Type': 'application/json',
+    'Accept-Language': 'en-US,en;q=0.9', # Language you want the response in (locale value in cookies and X-Discord-Locale also matter)
+    'Connection': 'keep-alive', # Keeps the connection open instead of closing
+    'Content-Type': 'application/json', # Format of the json 
     'Authorization': 'TokenToDiscordTheDiscordAccount', # READ ABOUT TOKENS BELOW
     'Priority': 'u=1, i',
-    'Referer': 'https://discord.com/channels/@me',
+    'Referer': 'https://discord.com/channels/@me', # From wheare the request was made
     'Sec-Ch-Ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
-    'Sec-Ch-Ua-Mobile': '?0',
-    'Sec-Ch-Ua-Platform': '"Windows"',
+    'Sec-Ch-Ua-Mobile': '?0', # ?0 Means that is is not a mobile device
+    'Sec-Ch-Ua-Platform': '"Windows"', # The OS
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Site': 'same-origin',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', # READ ABOUT USER-AGENT BELOW
-    'X-Debug-Options': 'bugReporterEnabled',
-    'X-Discord-Locale': 'en-US',
-    'X-Discord-Timezone': 'Europe/Warsaw',
+    'Sec-Fetch-Site': 'same-origin', # Means the requiest got sent from the same orgin so from discord to discord
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', # Explained below
+    'X-Debug-Options': 'bugReporterEnabled', 
+    'X-Discord-Locale': 'en-US', # Launguage (same as with accept language)
+    'X-Discord-Timezone': 'Europe/Warsaw', # Timezone
     'X-Super-Properties': 'eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiaGFzX2NsaWVudF9tb2RzIjpmYWxzZSwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMy4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiYnJvd3Nlcl92ZXJzaW9uIjoiMTMzLjAuMC4wIiwib3NfdmVyc2lvbiI6IjEwIiwicmVmZXJyZXIiOiJodHRwczovL2R1Y2tkdWNrZ28uY29tLyIsInJlZmVycmluZ19kb21haW4iOiJkdWNrZHVja2dvLmNvbSIsInNlYXJjaF9lbmdpbmUiOiJkdWNrZHVja2dvIiwicmVmZXJyZXJfY3VycmVudCI6IiIsInJlZmVycmluZ19kb21haW5fY3VycmVudCI6IiIsInJlbGVhc2VfY2hhbm5lbCI6InN0YWJsZSIsImNsaWVudF9idWlsZF9udW1iZXIiOjM2NTk2NSwiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0='
     # READ ABOUT X-SUPER-PROPERTIES BELOW
 }

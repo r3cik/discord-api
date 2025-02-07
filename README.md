@@ -75,22 +75,22 @@ eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2Fs
 Decoded (Put the xsup into this site https://www.base64decode.org/ to decode yours)
 ```python
 {
-    'os': 'Windows',
-    'browser': 'Chrome',
-    'device': '',
-    'system_locale': 'en-US',
-    'has_client_mods': False,
-    'browser_user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
-    'browser_version': '133.0.0.0',
-    'os_version': '10',
-    'referrer': 'https://duckduckgo.com/',
-    'referring_domain': 'duckduckgo.com',
-    'search_engine': 'duckduckgo',
-    'referrer_current': '',
-    'referring_domain_current': '',
-    'release_channel': 'stable',
-    'client_build_number': 365965,
-    'client_event_source': None
+    'os': 'Windows', # Os name
+    'browser': 'Chrome', # Browser name
+    'device': '', # Device type 
+    'system_locale': 'en-US', # Locale of the system
+    'has_client_mods': False, # If client has mods
+    'browser_user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', # Useragent fo the browser
+    'browser_version': '133.0.0.0', # Version of the browser
+    'os_version': '10', # Version of the OS
+    'referrer': 'https://duckduckgo.com/', # Reffering site
+    'referring_domain': 'duckduckgo.com', # Domain of the reffering site
+    'search_engine': 'duckduckgo', # Search engine
+    'referrer_current': '', # Current reffering domain
+    'referring_domain_current': '', # Reffering domain
+    'release_channel': 'stable', # Relaese channel
+    'client_build_number': 365965, # Client build number
+    'client_event_source': None # Event source
 }
 
 ```

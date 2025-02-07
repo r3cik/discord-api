@@ -3,7 +3,7 @@
 </h1>  
 
 > [!NOTE]  
-> This repository is not focused on bypassing discord security in any way just the endpoints and usage
+> This repository just shows how the api works, this repo is made just to LEARN not to abuse the discord api ofc
 >
 > **Last Updated:** 05/02/2025 (day/month/year)  
 > 
@@ -13,8 +13,9 @@
 
 # **Table of Contents**  
 - Understanding how to use the API correctly
-  - Headers
+  - Header base
   - User-Agent
+  - X-Super-Properties
 - Endpoints
 
 # **Headers**

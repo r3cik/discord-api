@@ -19,7 +19,7 @@
 
 # **Headers**
 ### Header base
-> The header base depends on the endpoint (as diffrent ones may require additional header values) but even if it works with no headers or only the Authorization header you still need to have all the headers in for the request, example of headers for chrome124
+> The header base depends on the endpoint (as diffrent ones may require additional header values) but even if it works with no headers or only the Authorization header you still need to have all the headers in for the request, example of headers for chrome133
 ```python
 {
     'Accept': '*/*',
@@ -46,13 +46,13 @@
 ```
 
 ### User-Agent (UA for short)
-> User-Agent is a identifier for the browser/device/etc the user is using, here is a example of a user agent for chrome124
+> User-Agent is a identifier for the browser/device/etc the user is using, here is a example of a user agent for chrome133
 ```
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 ```
 
 ### X-Super-Properties (Xsup for short) 
-> Xsup is similar to the useragent but it has more info and is more specific about the device, explenation and decode of xsuper taken form chrome124 using duckduckgo search engine below
+> Xsup is similar to the useragent but it has more info and is more specific about the device, explenation and decode of xsuper taken form chrome133 using duckduckgo search engine below
 
 Encoded
 ```text

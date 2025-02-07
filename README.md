@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size: 50px;">  
-   Discord API - upkept by r3ci 🔥
+   Discord API - upkept by r3ci 🔥 (More stars ⭐ = more updates)
 </h1>  
 
 > [!NOTE]  

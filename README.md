@@ -12,11 +12,10 @@
 > - **Version:** `v9`
 
 # **Table of Contents**  
-- Understanding how to use the API correctly
-  - Header base
-  - User-Agent
-  - X-Super-Properties
-- Endpoints
+- [Headers](#headers)
+  - [Header base](#header-base)
+  - [User-Agent](#user-agent)
+  - [X-Super-Properties](#x-super-properties)
 
 # **Headers**
 > [!NOTE]  
@@ -49,7 +48,7 @@
 }
 ```
 
-### User-Agent (UA for short)
+### User-Agent
 > User-Agent is a identifier for the browser/device/etc the user is using
 > 
 > **Explenation for diffrent values**  
@@ -66,7 +65,7 @@
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 ```
 
-### X-Super-Properties (Xsup for short) 
+### X-Super-Properties 
 > Xsup is similar to the useragent but it has more info and is more specific about the device, explenation and decode of xsuper taken form chrome133 using duckduckgo search engine below
 
 Encoded
@@ -96,7 +95,7 @@ Decoded (Put the xsup into this site https://www.base64decode.org/ to decode you
 
 ```
 
-# **Endpoints**
+# **ENDPOINTS WILL BE ADDED ON 5 STARS ⭐**
 
 <h1 align="center" style="font-size: 50px;">  
   ⭐ If this repository helped you, please give it a star! ⭐  
